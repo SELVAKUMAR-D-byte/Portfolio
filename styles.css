@@ -507,7 +507,7 @@ span{
 
 
 .certifications-container {
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -530,6 +530,14 @@ span{
     transition: .5s ease;
     border-color: var(--main-color);
     box-shadow: 0 0 .9rem var(--main-color);
+}
+
+.certifications-container .certifications-emptybox{
+    flex: 1 1 30rem;
+    background: var(--snd-bg-color);
+    padding: 3rem 2rem 4rem;
+    width: 10cm;
+    height: 13cm;
 }
 
 .certifications-box img{
